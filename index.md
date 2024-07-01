@@ -7,12 +7,4 @@ A falta da formação adequada nos conceitos básicos e avançados necessários,
 Este livro tem por objetivo apresentar de uma forma introdutória e breve, conceitos que devem ser estudados em mais profundidade. Essa página é dedicada para a disponibilização dos códigos apresentados nos capítulos do livro, conforme apresentado a seguir:
 
 1. [Conceitos Gerais da Linguagem Python](001-revisao.md)
-2. [Python para Ciência de Dados](cp2.md)
-3. [Visualização para Exploração de Dados](cp3.md)
-4. [Qualidade de Dados](cp4.md)
-5. [Transformação de Dados](cp5.md)
-6. [Engenharia de Características](cp6.md)
-7. [Amostras de Dados para Experimentos](cp7.md)
-8. [Modelagem de Dados](cp8.md)
-9. [Avaliação, Ajuste e Seleção de Modelos](cp9.md)
-10. [Dados Não Estruturados](cp10.md)
+2. [Python para Ciência de Dados](002-test.md)
