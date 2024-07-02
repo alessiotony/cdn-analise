@@ -1,3 +1,6 @@
+# EXEC1: jupyter-book build cdn-analise
+# EXEC2: jupyter nbconvert nbs/002-test.ipynb --to markdown
+
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
@@ -39,8 +42,8 @@ bibtex_bibfiles:
 # Information about where the book exists on the web
 repository:
   url: https://github.com/alessiotony/cdn-analise  # Online location of your book
-  # path_to_book: docs  # Optional path to your book, relative to the repository root
-  branch: master  # Which branch of the repository should be used when creating links (optional)
+  path_to_book: _build/html  # Optional path to your book, relative to the repository root
+  branch: main  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
