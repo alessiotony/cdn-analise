@@ -1,29 +1,9 @@
-# EXEC1: jupyter-book build cdn-analise
-# EXEC2: jupyter nbconvert nbs/002-test.ipynb --to markdown
-
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: CDN-UFPB | Análise de Dados
-author: Aléssio Almeida
-logo:
-
-# Parse and render settings
-parse:
-  myst_enable_extensions:  # default extensions to enable in the myst parser. See https://myst-parser.readthedocs.io/en/latest/using/syntax-optional.html
-    # - amsmath
-    - colon_fence
-    # - deflist
-    - dollarmath
-    # - html_admonition
-    # - html_image
-    - linkify
-    # - replacements
-    # - smartquotes
-    - substitution
-    - tasklist
-  myst_url_schemes: [mailto, http, https] # URI schemes that will be recognised as external URLs in Markdown links
-  myst_dmath_double_inline: true  # Allow display math ($$) within an inline context
+title: My sample book
+author: The Jupyter Book Community
+logo: logo.png
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -41,21 +21,12 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/alessiotony/cdn-analise  # Online location of your book
-  path_to_book: _build/html  # Optional path to your book, relative to the repository root
-  branch: main  # Which branch of the repository should be used when creating links (optional)
+  url: https://github.com/executablebooks/jupyter-book  # Online location of your book
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
 
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
-# HTML-specific settings
 html:
-  use_edit_page_button      : false  # Whether to add an "edit this page" button to pages.
-  use_repository_button     : true  # Whether to add a link to your repository button
-  use_issues_button         : true  # Whether to add an "open an issue" button
-  use_multitoc_numbering    : true   # Continuous numbering across parts/chapters
-  home_page_in_navbar       : true  # Whether to include your home page in the left Navigation Bar
-
-  comments:
-    hypothesis              : false
-    utterances              : false
-  announcement              : "Análise de Dados" # A banner announcement at the top of the site.
+  use_issues_button: true
+  use_repository_button: true
